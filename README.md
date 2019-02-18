@@ -18,9 +18,10 @@ Our mission :
 
 4. Propose marketing ideas to encourage visitors to order on the website.
 
+---------------------------------------------------
 
 Project made by : 
-Aurélien Sarrat
-Alexandre Martin
-Victor Buczkowski
-Aurélien Provenchère
+- Aurélien Sarrat
+- Alexandre Martin
+- Victor Buczkowski
+- Aurélien Provenchère
