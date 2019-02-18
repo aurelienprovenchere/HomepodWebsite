@@ -1,11 +1,24 @@
+@font-face{
+  font-family: AppleFont;
+  src: url(https://developer.apple.com/design/downloads/SF-Font.dmg);
+}
 body{
   margin: 0;
 	padding: 0;
-	font-family: 'Arial', sans-serif; // Je sais pas comment integrer une police qui se dl comme la police de Apple
+	font-family: 'AppleFont', 'Arial', sans-serif;
   font-size: 16px;
 }
-
 header{
-  background: black;
-
+  background: #515151;
+  color: white;
+  padding: 30px;
+}
+.containerHeader{
+  width: 960px;
+  margin: 0 auto;
+}
+footer{
+  background: #515151;
+  color: white;
+  padding: 60px;
 }
