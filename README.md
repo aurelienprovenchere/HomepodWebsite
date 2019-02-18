@@ -26,7 +26,7 @@
 ---------------------------------------------------
 
 Project made by : 
-- Aurélien Sarrat
-- Alexandre Martin
-- Victor Buczkowski
-- Aurélien Provenchère
+:arrow_right: Aurélien Sarrat
+:arrow_right: Alexandre Martin
+:arrow_right: Victor Buczkowski
+:arrow_right: Aurélien Provenchère
