@@ -27,7 +27,4 @@
 
 Project made by : 
 
-Aurélien Sarrat
-Alexandre Martin
-Victor Buczkowski
-Aurélien Provenchère
+Aurélien Sarrat / Alexandre Martin / Victor Buczkowski / Aurélien Provenchère
