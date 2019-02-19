@@ -8,7 +8,7 @@ body{
 	padding: 0;
 	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto
   font-size: 14px;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 .white{
@@ -35,6 +35,11 @@ header{
 
 /* Main */
 
+.pure-g [class *= "pure-u"]{
+  font-size: 18px;
+}
+
+
 .welcomeDisplay{
   display: flex;
   justify-content: space-between
@@ -52,6 +57,32 @@ header{
   text-align: center;
   margin: 20px;
   padding: 50px;
+}
+
+.adaptationFunction h3{
+  text-align: center;
+}
+
+.adaptAndStereo{
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+  padding: 15px;
+}
+
+.musicFunction{
+  width: 600px;
+  margin: 0 auto;  
+}
+
+.musicFunction h3{
+  margin-bottom: 50px;
+}
+
+.presentationAppleMusic img:nth-child(1){
+  width: 400px;
+  height: auto;
+  
 }
 
 .coord{
