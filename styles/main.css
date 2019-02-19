@@ -31,9 +31,16 @@ header{
 
 
 /* Main */
-
-
-
+.coord{
+  margin: 10px;
+}
+.coord a{
+  text-decoration: none;
+  color: black;
+}
+.coord button{
+  background: #ff1628;
+}
 /* Footer */
 
 footer{
