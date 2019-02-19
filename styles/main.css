@@ -50,19 +50,39 @@ header{
 
 .welcomeDisplay{
   display: flex;
-  justify-content: space-between
-
+  justify-content: space-between;
 }
+.welcomeDisplay img{
+  width: 50px;
+  height: auto;
+  position: absolute;
+}
+.welcomeDisplay p{
+  position: absolute;
+}
+
+#homepodImage{
+  height: 400px;
+  width: 800px;
+  right: 0px;
+  border-radius: 1%;
+}
+
+
 
 #smallSentence1{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 170px;
   margin-bottom: 20px;
   padding: 50px;
+  font-size: 25px;
 }
 
 #descriptionHomepod{
   text-align: center;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 400;
 
 }
 
@@ -121,6 +141,7 @@ header{
   text-align: center;
   padding: 20px;
   margin: 15px;
+  margin-top: 85px;
 }
 .siriAndHomepod img{
   width: 400px;
