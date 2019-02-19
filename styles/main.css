@@ -152,9 +152,22 @@ header{
   text-align: center;
 }
 
+.sliderPart img{
+  width: 300px;
+  height: auto;
+  border-radius: 4%
+}
+.sliderPart p{
+  text-align: center;
+}
+
+.sliderPart{
+  margin: 0 auto;
+}
+
 .sliderEcosystem{
-  width: 960px;
-  height: 480px;
+  width: 580px;
+  height: 200px;
   position: relative;
   overflow: hidden;
 }
@@ -212,13 +225,34 @@ header{
 }
 
 
-
 .sliderEcosystem img{
   width: 550px;
   height: auto;
   border-radius: 5%;
 }
 
+.buyHomepod{
+  text-align: center;
+  background-color: #e5f442;
+}
+.buyHomepod img{
+  border-radius: 5%;
+}
+
+.moreThings{
+  display: flex;
+  margin: 45px;
+}
+
+.moreThings img{
+  height: 150px;
+  width: auto;
+}
+
+.paymentServices{
+  margin-top: 90px;
+  display: flex;
+}
 
 // Autre document 
 
