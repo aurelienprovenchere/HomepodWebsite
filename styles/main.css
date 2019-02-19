@@ -136,6 +136,91 @@ header{
   padding: 15px;
 }
 
+.appleEcosystemPresentation{
+  display: flex;
+  justify-content: space-between;
+}
+.appleEcosystemPresentation img{
+  height: 350px;
+  width: auto;
+  margin: 15px;
+  border-radius: 15%;
+}
+.appleEcosystemPresentation h2{
+  width: 500px;
+  margin-top: 12%;
+  text-align: center;
+}
+
+.sliderEcosystem{
+  width: 960px;
+  height: 480px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider{
+  position: absolute;
+  display: flex;
+  transition: ease-in .5s all;
+  will-change: left;
+}
+.slider img{
+  margin: 0 10px;
+}
+.previous{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  background: white;
+  color: green;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.next{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  background: white;
+  color: green;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.dots{
+	position: absolute;
+	bottom: 20px;
+	padding: 10px;
+	left:50%;
+	transform: translateX(-50%);
+}
+.dots li{
+	display:inline-block;
+}
+.dots li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	background: rgba(52, 152, 219,1.0);
+	border-radius: 20%;
+}
+.dots li a.current{
+	background-color: red;
+}
+
+
+
+.sliderEcosystem img{
+  width: 550px;
+  height: auto;
+  border-radius: 5%;
+}
+
+
+// Autre document 
 
 .coord{
   margin: 10px;
