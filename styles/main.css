@@ -8,15 +8,30 @@ body{
 	font-family: 'AppleFont', 'Arial', sans-serif;
   font-size: 14px;
 }
+.white{
+  color: white;
+}
 .container{
   width: 960px;
   margin: 0 auto;
 }
+
+/*Header*/
 header{
   background: #515151;
   color: white;
   padding: 20px;
 }
-.white{
+
+.button-error{
   color: white;
+  border-radius: 30px;
+  background-color: #ff1628;
+}
+/* Footer */
+
+footer{
+  background: #515151;
+  color: white;
+  padding: 50px;
 }
