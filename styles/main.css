@@ -170,25 +170,47 @@ header{
 }
 
 
-.presentationAppleMusic img:nth-child(1){
-  width: 400px;
-  height: auto;
-  width: 0 auto;
+.presentationAppleMusic p{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.presentationAppleMusic p:nth-child(2){
+  font-size: 27px;
+  text-align: center;
+  font-weight: normal;
 }
 
 .presentationAppleMusic img:nth-child(2){
   width: 400px;
   height: auto;
+  margin: 0 auto;
 }
 
+.accesAppleMusic p{
+  font-size: 25px;
+  font-weight: normal;
+}
+
+
 .experienceAudio{
-  width: 650px;
+  width: 600px;
   margin: 0 auto;
+  font-size: 25px;
+}
+
+.experienceAudio p{
+  width: 550px;
+  margin: 0 auto;
+  font-size: 25px;
 }
 
 .siriPresentation{
   width: 800px;
   margin: 0 auto;
+  font-size: 25px;
 }
 
 .siriFunction img:nth-child(1){
