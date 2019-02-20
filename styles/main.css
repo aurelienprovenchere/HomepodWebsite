@@ -68,7 +68,7 @@ header nav{
   width: 200px;
 }
 .button-error{
-  color: white;
+  color: #ffffff;
   border-radius: 30px;
   background-color:#42a1ec;
   font-weight: normal;
@@ -477,7 +477,7 @@ header nav{
 .coord{
   margin: 10px;
 }
-.coord a{
+.conditions{
   text-decoration: none;
   color: black;
 }
@@ -490,7 +490,7 @@ header nav{
 }
 .pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
     background-color: #0078e7;
-    color: #fff;
+    color: #ffffff;
     margin: 10px;
 }
 input[type=checkbox]{
