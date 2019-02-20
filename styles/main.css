@@ -20,7 +20,7 @@ body{
   perspective:1px;
   transform-style: preserve-3d;
   height: 100%;
-  overflow-y: scroll; 
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 
@@ -65,13 +65,13 @@ header{
   transform-style: inherit;
   width: 100vw;
   }
-  
- 
-  
+
+
+
   .parallax, .parallax:before{
   background: 50% 50% / cover;
   }
-  
+
   .parallax::before{
   bottom:0;
   content: "";
@@ -86,7 +86,7 @@ header{
   z-index: -1;
   min-height: 100vh;
   }
-  
+
   .parallax p{
   top: 76%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -99,7 +99,7 @@ header{
   color:gray;
   }
 
-  
+
 #smallSentence1{
   text-align: center;
   margin-top: 47%;
@@ -115,7 +115,7 @@ header{
   padding-left: 10%;
   margin-top: 6%;
   margin-bottom: 3%;
-  
+
 }
 
 .welcomeDisplay img{
@@ -333,7 +333,89 @@ header{
 }
 
 /*Autre document*/
+.banner {
+   background: transparent url('http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg') 0 0 no-repeat fixed;
+   text-align: center;
+   background-size: cover;
+   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
+   height: 200px;
+   width: 100%;
+   margin-bottom: 3em;
+   display: table;
+}
 
+.banner-head {
+   display: table-cell;
+   vertical-align: middle;
+   margin-bottom: 0;
+   font-size: 2em;
+   color: white;
+   font-weight: 500;
+}
+.pricing-tables,.information {
+   max-width: 980px;
+   margin: 0 auto;
+}
+.pricing-tables {
+   margin-bottom: 3.125em;
+   text-align: center;
+}
+.pricing-table {
+    border: 1px solid #ddd;
+    margin: 0 0.5em 2em;
+    padding: 0 0 3em;
+}
+.pricing-table-free .pricing-table-header {
+    background: #519251;
+}
+.pricing-table-header {
+    background: #111;
+    color: #fff;
+}
+.pricing-table-header h2 {
+    margin: 0;
+    padding-top: 2em;
+    font-size: 1em;
+    font-weight: normal;
+}
+.pricing-table-price {
+    font-size: 6em;
+    margin: 0.2em 0 0;
+    font-weight: 100;
+}
+.pricing-table-price span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.2em;
+    padding-bottom: 2em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.pricing-table-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.pricing-table-list li {
+    padding: 0.8em 0;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e7e7e7;
+}
+.button-choose {
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #333;
+    border-radius: 2em;
+    font-weight: bold;
+    position: relative;
+    bottom: -1.5em;
+}
+.information-head {
+    color: black;
+    font-weight: 500;
+}
 .coord{
   margin: 10px;
 }
