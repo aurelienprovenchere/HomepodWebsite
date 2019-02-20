@@ -337,6 +337,8 @@ justify-content: center;
 }
 .buyHomepod img{
   border-radius: 5%;
+  height: 400px;
+  width: auto;
 }
 .moreThings{
   display: flex;
