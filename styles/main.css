@@ -22,7 +22,6 @@ body{
   height: 100%;
   overflow-y: scroll; 
   overflow-x: hidden;
-
 }
 
 .white{
@@ -58,43 +57,88 @@ header{
   padding: 50px;
 }
 
+.parallax{
+  box-sizing:border-box;
+  min-height:100vh;
+  padding: 30vw 0 5vw;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+  }
+  
+ 
+  
+  .parallax, .parallax:before{
+  background: 50% 50% / cover;
+  }
+  
+  .parallax::before{
+  bottom:0;
+  content: "";
+  left:0;
+  position: absolute;
+  right:0;
+  display: block;
+  background-image: url(../images/pic.jpg);
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  min-height: 100vh;
+  }
+  
+  .parallax p{
+  top: 76%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin: 0;
+  padding:1em 0;
+  }
+
+  
+#smallSentence1{
+  text-align: center;
+  margin-top: 47%;
+  padding: 50px;
+  font-size: 25px;
+}
+
 .welcomeDisplay{
+  margin-left: 2%;
+  margin-right: 2%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 10%;
+  margin-top: 6%;
+  margin-bottom: 3%;
   
 }
 
 .welcomeDisplay img{
   width: 50px;
   height: auto;
-  position: absolute;
 }
 .welcomeDisplay p{
   position: absolute;
 }
 
-#homepodImage{
-  height: 400px;
-  width: 800px;
-  right: 0px;
-}
 
-
-
-#smallSentence1{
-  text-align: center;
-  margin-top: 170px;
-  margin-bottom: 20px;
-  padding: 50px;
-  font-size: 25px;
-}
 
 #descriptionHomepod{
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
-  font-size: 21px;
+  font-size: 27px;
   font-style: italic;
   font-weight: 400;
+  margin-bottom: 5%;
+}
 
+.adaptationFunction{
+  margin-top: 5%;
 }
 
 .adaptationFunction h3{
