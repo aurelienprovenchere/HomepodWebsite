@@ -2,13 +2,10 @@
   font-family: SF-Pro-Display;
   src: url("../fonts/System San Francisco Display Regular.ttf");
 }
-
-
 @font-face {
   font-family : sf_bold;
   src: url("../fonts/System San Francisco Display Bold_3.ttf");
 }
-
 *{
   box-sizing: border-box;
 }
@@ -26,26 +23,46 @@ body{
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 .white{
   color: white;
-}
-.container{
-  width: 960px;
-  margin: 0 auto;
 }
 
 /*Header*/
 header{
-  background: #515151;
+  background: #999999;
   color: white;
   padding: 20px;
 }
+.header_container{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header_left{
+  display: flex;
+  justify-content: flex-start;
+}
+.header_right{
 
+}
+header h1{
+  font-size: 20px;
+  color: #000000;
+}
+header img{
+  width: 30px;
+  height: 30px;;
+}
+header nav{
+  display: flex;
+  justify-content: flex-end;
+  width: 200px;
+}
 .button-error{
   color: white;
   border-radius: 30px;
-  background-color: #ff1628;
+  background-color:#42a1ec;
 }
 
 
@@ -364,25 +381,6 @@ header{
 }
 
 /*Autre document*/
-.banner {
-   background: transparent url('http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg') 0 0 no-repeat fixed;
-   text-align: center;
-   background-size: cover;
-   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
-   height: 200px;
-   width: 100%;
-   margin-bottom: 3em;
-   display: table;
-}
-
-.banner-head {
-   display: table-cell;
-   vertical-align: middle;
-   margin-bottom: 0;
-   font-size: 2em;
-   color: white;
-   font-weight: 500;
-}
 .pricing-tables,.information {
    max-width: 980px;
    margin: 0 auto;
@@ -397,9 +395,9 @@ header{
     padding: 0 0 3em;
 }
 .pricing-table-free .pricing-table-header {
-    background: #519251;
+    background: #000000;
 }
-.pricing-table-header {
+.pricing-table-header{
     background: #111;
     color: #fff;
 }
@@ -455,13 +453,12 @@ header{
   color: black;
 }
 .coord button{
-  background: #ff1628;
+  background: #42a1ec;
 }
 /* Footer */
 
 footer{
-  background: #515151;
-  color: white;
+  background: #999999;
   padding: 50px;
 }
 footer li{
@@ -469,5 +466,7 @@ footer li{
 }
 footer h3{
   font-size: 12px;
+}
+.pure-menu-link{
   color: black;
 }
