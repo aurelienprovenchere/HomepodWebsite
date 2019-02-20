@@ -161,6 +161,10 @@ header{
 .envDescription{
   font-size: 25px;
   display: flex;
+  margin: 2%;
+}
+.envDescription p:nth-child(1){
+  font-weight: bold;
 }
 
 .musicFunction{
