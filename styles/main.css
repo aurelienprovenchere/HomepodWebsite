@@ -219,13 +219,73 @@ header nav{
   margin-left: 35%;
   margin-right: 25%;
 }
-.siriExamples{
-  padding: 20px;
-  margin: 30px;
+// debut slider
+.containerSiriAndHomepod{
+	width: 650px;
+	margin: 0 auto;
 }
-.siriExamples div{
-  padding: 15px;
+
+.sliderSiriAndHomepod{
+	height: 350px;
+	width:100%;
+	position: relative;
+	overflow: hidden;
 }
+.sliderContainerSiriAndHomepod{
+	position: absolute;
+	display: flex;
+	transition: ease-in .5s all;
+	will-change: left;
+}
+
+.sliderContainer img{
+	margin: 0 10px;
+}
+
+.previous{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  background: white;
+  color: green;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.next{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  background: white;
+  color: green;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.dots{
+	position: absolute;
+	bottom: 20px;
+	padding: 10px;
+	left:50%;
+	transform: translateX(-50%);
+}
+.dots li{
+	display:inline-block;
+}
+.dots li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	background: rgba(52, 152, 219,1.0);
+	border-radius: 20%;
+}
+.dots li a.current{
+	background-color: red;
+}
+// fin slider
+
 .appleEcosystemPresentation{
   display: flex;
   justify-content: space-between;
