@@ -178,22 +178,27 @@ header{
 
 
 .presentationAppleMusic p{
-  font-size: 30px;
+  font-size: 27px;
   font-weight: bold;
   text-align: center;
 }
 
+#textIpod{
+  font-weight: normal;
+  font-size: 25px;
+}
 
 .presentationAppleMusic p:nth-child(2){
-  font-size: 27px;
+  font-size: 25px;
   text-align: center;
   font-weight: normal;
 }
 
-.presentationAppleMusic img:nth-child(2){
+.presentationAppleMusic img {
   width: 400px;
   height: auto;
-  margin: 0 auto;
+  margin-left: 35%;
+  margin-right: 25%;
 }
 
 .accesAppleMusic p{
@@ -236,7 +241,8 @@ header{
 .siriAndHomepod img{
   width: 400px;
   height: auto;
-  left: 70%;
+  margin-left: 35%;
+  margin-right: 25%;
 }
 
 .siriExamples{
