@@ -1,21 +1,24 @@
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url("../fonts/System San Francisco Display Regular.ttf");
+}
+
+
+@font-face {
+  font-family : sf_bold;
+  src: url("../fonts/System San Francisco Display Bold_3.ttf");
+}
+
 *{
   box-sizing: border-box;
 }
-
-html, button, input, select, textarea,
-    .pure-g [class *= "pure-u"] {
-      font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto
-    }
-
 html{
   height: 100%;
   overflow: hidden;
 }
-
 body{
   margin: 0;
 	padding: 0;
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto
   font-size: 14px;
   perspective:1px;
   transform-style: preserve-3d;
@@ -224,7 +227,7 @@ header{
 .siriAndHomepod p{
   text-align: center;
   font-size: 27px;
-  
+
 }
 .siriAndHomepod img{
   width: 400px;
