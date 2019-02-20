@@ -336,9 +336,92 @@ display: flex;
 justify-content: center;
 }
 .buyHomepod img{
-height: 300px;
-width: auto;
-margin-bottom: 10%;
+  border-radius: 5%;
+}
+.moreThings{
+  display: flex;
+  margin: 45px;
+}
+.moreThings img{
+  height: 150px;
+  width: auto;
+}
+.paymentServices{
+  margin-top: 90px;
+  display: flex;
+  background-color: #eff1f4;
+}
+/*Autre document*/
+.pricing-tables,.information{
+   max-width: 980px;
+   margin: 20px auto;
+}
+.pricing-tables{
+   margin-bottom: 3.125em;
+   text-align: center;
+}
+.pricing-table{
+    border: 1px solid #ddd;
+    margin: 0 0.5em 2em;
+    padding: 0 0 3em;
+    margin-bottom: 0;
+}
+.pricing-table-free .pricing-table-header{
+    background: #000000;
+}
+.pricing-table-header{
+    background: #111;
+    color: #fff;
+}
+.pricing-table-header h2{
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 1em;
+    font-weight: normal;
+}
+.pricing-table-price{
+    font-size: 60px;
+    margin: 0.2em 0 0;
+    font-weight: 100;
+}
+.pricing-table-price span{
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.2em;
+    padding-bottom: 2em;
+    font-weight: 400;
+    color: #fff;
+}
+.pricing-table-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.pricing-table-list li{
+    padding: 0.8em 0;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e7e7e7;
+}
+pricing-table-list li .online{
+  background: #42a1ec;
+}
+.button-choose{
+    background: #42a1ec;
+    color: #ffffff;
+    border-radius: 2em;
+    font-weight: bold;
+    position: relative;
+    bottom: -1.5em;
+}
+.pure-u-23-24{
+  width: 50.0%;
+}
+.information-head{
+    color: black;
+    font-weight: 500;
+    margin-top: 0;
 }
 
 .informations{
