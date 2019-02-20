@@ -26,7 +26,6 @@ body{
 .white{
   color: white;
 }
-
 /*Header*/
 header{
   background: #999999;
@@ -34,8 +33,6 @@ header{
   padding: 20px;
 }
 .header_container{
-  width: 960px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -44,7 +41,6 @@ header{
   justify-content: flex-start;
 }
 .header_right{
-
 }
 header h1{
   font-size: 20px;
@@ -64,19 +60,14 @@ header nav{
   border-radius: 30px;
   background-color:#42a1ec;
 }
-
-
 /* Main */
-
 .pure-g [class *= "pure-u"]{
   font-size: 18px;
 }
-
 .marginElement{
   margin: 20px;
   padding: 50px;
 }
-
 .parallax{
   box-sizing:border-box;
   min-height:100vh;
@@ -84,15 +75,11 @@ header nav{
   position: relative;
   transform-style: inherit;
   width: 100vw;
-  }
-
-
-
-  .parallax, .parallax:before{
+}
+.parallax, .parallax:before{
   background: 50% 50% / cover;
-  }
-
-  .parallax::before{
+}
+.parallax::before{
   bottom:0;
   content: "";
   left:0;
@@ -105,9 +92,8 @@ header nav{
   transform: translateZ(-1px) scale(2);
   z-index: -1;
   min-height: 100vh;
-  }
-
-  .parallax p{
+}
+.parallax p{
   top: 76%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 28px;
@@ -117,16 +103,13 @@ header nav{
   margin: 0;
   padding:1em 0;
   color:gray;
-  }
-
-
+}
 #smallSentence1{
   text-align: center;
   margin-top: 47%;
   padding: 50px;
   font-size: 25px;
 }
-
 .welcomeDisplay{
   margin-left: 2%;
   margin-right: 2%;
@@ -135,9 +118,7 @@ header nav{
   padding-left: 10%;
   margin-top: 6%;
   margin-bottom: 3%;
-
 }
-
 .welcomeDisplay img{
   width: 50px;
   height: auto;
@@ -145,9 +126,6 @@ header nav{
 .welcomeDisplay p{
   position: absolute;
 }
-
-
-
 #descriptionHomepod{
   width: 80%;
   margin: 0 auto;
@@ -156,15 +134,12 @@ header nav{
   font-style: italic;
   font-weight: 400;
 }
-
 #imgRoom{
   width: 500px;
 }
-
 .adaptationFunction{
   margin-top: 1%;
 }
-
 .adaptationFunction p{
   text-align: center;
   font-size: 27px;
@@ -173,8 +148,6 @@ header nav{
   font-weight: bold;
   font-size: 30px;
 }
-
-
 .envDescription{
   font-size: 25px;
   display: flex;
@@ -183,65 +156,52 @@ header nav{
 .envDescription p:nth-child(1){
   font-weight: bold;
 }
-
 .musicFunction{
   width: 600px;
   margin: 0 auto;
 }
-
 .musicFunction h3{
   margin-bottom: 50px;
 }
-
-
 .presentationAppleMusic p{
   font-size: 27px;
   font-weight: bold;
   text-align: center;
 }
-
 #textIpod{
   font-weight: normal;
   font-size: 25px;
 }
-
 .presentationAppleMusic p:nth-child(2){
   font-size: 25px;
   text-align: center;
   font-weight: normal;
 }
-
 .presentationAppleMusic img {
   width: 400px;
   height: auto;
   margin-left: 35%;
   margin-right: 25%;
 }
-
 .accesAppleMusic p{
   font-size: 25px;
   font-weight: normal;
 }
-
-
 .experienceAudio{
   width: 600px;
   margin: 0 auto;
   font-size: 25px;
 }
-
 .experienceAudio p{
   width: 550px;
   margin: 0 auto;
   font-size: 25px;
 }
-
 .siriPresentation{
   width: 800px;
   margin: 0 auto;
   font-size: 25px;
 }
-
 .siriFunction img:nth-child(1){
   width: 300px;
   height: auto;
@@ -249,11 +209,9 @@ header nav{
   position: relative;
   left: 65%;
 }
-
 .siriAndHomepod p{
   text-align: center;
   font-size: 27px;
-
 }
 .siriAndHomepod img{
   width: 400px;
@@ -261,16 +219,13 @@ header nav{
   margin-left: 35%;
   margin-right: 25%;
 }
-
 .siriExamples{
   padding: 20px;
   margin: 30px;
 }
-
 .siriExamples div{
   padding: 15px;
 }
-
 .appleEcosystemPresentation{
   display: flex;
   justify-content: space-between;
@@ -286,7 +241,6 @@ header nav{
   margin-top: 12%;
   text-align: center;
 }
-
 .sliderPart img{
   width: 300px;
   height: auto;
@@ -295,18 +249,15 @@ header nav{
 .sliderPart p{
   text-align: center;
 }
-
 .sliderPart{
   margin: 0 auto;
 }
-
 .sliderEcosystem{
   width: 580px;
   height: 200px;
   position: relative;
   overflow: hidden;
 }
-
 .slider{
   position: absolute;
   display: flex;
@@ -326,7 +277,6 @@ header nav{
   border-radius: 50%;
   text-decoration: none;
 }
-
 .next{
   position: absolute;
   top: 50%;
@@ -337,7 +287,6 @@ header nav{
   border-radius: 50%;
   text-decoration: none;
 }
-
 .dots{
 	position: absolute;
 	bottom: 20px;
@@ -358,14 +307,11 @@ header nav{
 .dots li a.current{
 	background-color: red;
 }
-
-
 .sliderEcosystem img{
   width: 550px;
   height: auto;
   border-radius: 5%;
 }
-
 .buyHomepod{
   text-align: center;
   background-color: #e5f442;
@@ -373,23 +319,19 @@ header nav{
 .buyHomepod img{
   border-radius: 5%;
 }
-
 .moreThings{
   display: flex;
   margin: 45px;
 }
-
 .moreThings img{
   height: 150px;
   width: auto;
 }
-
 .paymentServices{
   margin-top: 90px;
   display: flex;
   background-color: #eff1f4;
 }
-
 /*Autre document*/
 .pricing-tables,.information {
    max-width: 980px;
@@ -430,7 +372,6 @@ header nav{
     font-weight: 400;
     color: #fff;
 }
-
 .pricing-table-list {
     list-style-type: none;
     margin: 0;
@@ -466,7 +407,6 @@ header nav{
   background: #42a1ec;
 }
 /* Footer */
-
 footer{
   background: #999999;
   padding: 50px;
