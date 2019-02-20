@@ -26,6 +26,9 @@ body{
 .white{
   color: white;
 }
+footer .pure-menu{
+  font-size: 0;
+}
 /*Header*/
 header{
   background: #999999;
@@ -414,6 +417,7 @@ header nav{
     border: 1px solid #ddd;
     margin: 0 0.5em 2em;
     padding: 0 0 3em;
+    margin-bottom: 0;
 }
 .pricing-table-free .pricing-table-header{
     background: #000000;
@@ -453,17 +457,20 @@ header nav{
     border-bottom: 1px solid #e7e7e7;
 }
 .button-choose{
-    border: 1px solid #ccc;
-    background: #fff;
-    color: #333;
+    background: #42a1ec;
+    color: #ffffff;
     border-radius: 2em;
     font-weight: bold;
     position: relative;
     bottom: -1.5em;
 }
+.pure-u-23-24{
+  width: 50.0%;
+}
 .information-head{
     color: black;
     font-weight: 500;
+    margin-top: 0;
 }
 .coord{
   margin: 10px;
@@ -475,17 +482,37 @@ header nav{
 .coord button{
   background: #42a1ec;
 }
+.form-container{
+  width: 760px;
+  margin: 0 auto;
+}
+.pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
+    background-color: #0078e7;
+    color: #fff;
+    margin: 10px;
+}
 /* Footer */
+.footer_container{
+  margin: 0 auto;
+  width: 860px;
+}
 footer{
-  background: #999999;
-  padding: 50px;
+  background: #d6d6d6;
+  padding: 30px;
 }
 footer li{
   font-size: 11px;
+  list-style: none;
 }
 footer h3{
   font-size: 12px;
 }
 .pure-menu-link{
   color: black;
+}
+footer .pure-menu{
+  font-size: 0;
+}
+footer ul{
+  padding: 0;
 }
