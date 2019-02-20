@@ -57,3 +57,8 @@ for(let i = 0; i < dots.length; i++){
 	})
 
 }
+
+radio=document.getElementById("#test")
+
+if(radio.checked)
+document.getElementById(pure-button-disabled). = '';
