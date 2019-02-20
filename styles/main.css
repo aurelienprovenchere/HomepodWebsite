@@ -431,11 +431,12 @@ header nav{
 .pricing-table-header h2{
     margin: 0;
     padding-top: 2em;
+    padding-bottom: 1em;
     font-size: 1em;
     font-weight: normal;
 }
 .pricing-table-price{
-    font-size: 6em;
+    font-size: 60px;
     margin: 0.2em 0 0;
     font-weight: 100;
 }
@@ -457,6 +458,9 @@ header nav{
     padding: 0.8em 0;
     background: #f7f7f7;
     border-bottom: 1px solid #e7e7e7;
+}
+pricing-table-list li .online{
+  background: #42a1ec;
 }
 .button-choose{
     background: #42a1ec;
