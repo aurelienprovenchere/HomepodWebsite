@@ -40,8 +40,6 @@ header{
   display: flex;
   justify-content: flex-start;
 }
-.header_right{
-}
 header h1{
   font-size: 20px;
   color: #000000;
@@ -219,7 +217,8 @@ header nav{
   margin-left: 35%;
   margin-right: 25%;
 }
-// debut slider
+/* debut slider
+*/
 .containerSiriAndHomepod{
 	width: 650px;
 	margin: 0 auto;
@@ -284,8 +283,8 @@ header nav{
 .dots li a.current{
 	background-color: red;
 }
-// fin slider
-
+/* fin slider
+*/
 .appleEcosystemPresentation{
   display: flex;
   justify-content: space-between;
