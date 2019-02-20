@@ -132,23 +132,32 @@ header{
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  font-size: 27px;
+  font-size: 22px;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 5%;
+}
+
+#imgRoom{
+  width: 500px;
 }
 
 .adaptationFunction{
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
-.adaptationFunction h3{
+.adaptationFunction p{
   text-align: center;
+  font-size: 27px;
+}
+.adaptationFunction :nth-child(1){
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.adaptAndStereo{
+
+.envDescription{
+  font-size: 25px;
   display: flex;
-  justify-content: space-around;
 }
 
 .musicFunction{
@@ -160,14 +169,11 @@ header{
   margin-bottom: 50px;
 }
 
-.presentationAppleMusic{
-  display: flex;
-  justify-content: space-around;
-}
 
 .presentationAppleMusic img:nth-child(1){
   width: 400px;
   height: auto;
+  width: 0 auto;
 }
 
 .presentationAppleMusic img:nth-child(2){
@@ -193,15 +199,15 @@ header{
   left: 65%;
 }
 
-.siriAndHomepod{
+.siriAndHomepod p{
   text-align: center;
-  padding: 20px;
-  margin: 15px;
-  margin-top: 85px;
+  font-size: 27px;
+  
 }
 .siriAndHomepod img{
   width: 400px;
   height: auto;
+  left: 70%;
 }
 
 .siriExamples{
