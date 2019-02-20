@@ -74,14 +74,26 @@ header nav{
   background-color:#42a1ec;
   font-weight: normal;
 }
+
 /* Main */
-.pure-g [class *= "pure-u"]{
-  font-size: 18px;
+
+html{
+  height: 100%;
+  overflow: hidden;
 }
-.marginElement{
-  margin: 20px;
-  padding: 50px;
+
+body{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
 }
+
 .parallax{
   box-sizing:border-box;
   min-height:100vh;
@@ -110,7 +122,7 @@ header nav{
 .parallax p{
   top: 76%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 600;
   letter-spacing: 0.2em;
   text-align: center;
@@ -118,385 +130,239 @@ header nav{
   padding:1em 0;
   color:gray;
 }
-#smallSentence1{
-  text-align: center;
-  margin-top: 47%;
-  padding: 50px;
-  font-size: 25px;
-}
-.welcomeDisplay{
-  margin-left: 2%;
-  margin-right: 2%;
-  display: flex;
-  flex-direction: row;
-  padding-left: 10%;
-  margin-top: 6%;
-  margin-bottom: 3%;
-}
-.welcomeDisplay img{
-  width: 50px;
-  height: auto;
-}
-.welcomeDisplay p{
-  position: absolute;
-}
-#descriptionHomepod{
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 22px;
-  font-style: italic;
-  font-weight: 400;
-}
-#imgRoom{
-  width: 500px;
-}
-.adaptationFunction{
-  margin-top: 1%;
-}
-.adaptationFunction p{
-  text-align: center;
-  font-size: 27px;
-}
-.adaptationFunction :nth-child(1){
-  font-weight: bold;
-  font-size: 30px;
-}
-.envDescription{
-  font-size: 25px;
-  display: flex;
-  margin: 2%;
-}
-.envDescription p:nth-child(1){
-  font-weight: bold;
-}
-.musicFunction{
-  width: 600px;
-  margin: 0 auto;
-}
-.musicFunction h3{
-  margin-bottom: 50px;
-}
-.presentationAppleMusic p{
-  font-size: 27px;
-  font-weight: bold;
-  text-align: center;
-}
-#textIpod{
-  font-weight: normal;
-  font-size: 25px;
-}
-.presentationAppleMusic p:nth-child(2){
-  font-size: 25px;
-  text-align: center;
-  font-weight: normal;
-}
-.presentationAppleMusic img {
-  width: 400px;
-  height: auto;
-  margin-left: 35%;
-  margin-right: 25%;
-}
-.accesAppleMusic p{
-  font-size: 25px;
-  font-weight: normal;
-}
-.experienceAudio{
-  width: 600px;
-  margin: 0 auto;
-  font-size: 25px;
-}
-.experienceAudio p{
-  width: 550px;
-  margin: 0 auto;
-  font-size: 25px;
-}
-.siriPresentation{
-  width: 800px;
-  margin: 0 auto;
-  font-size: 25px;
-}
-.siriFunction img:nth-child(1){
-  width: 300px;
-  height: auto;
-  margin-top: 40px;
-  position: relative;
-  left: 65%;
-}
-.siriAndHomepod p{
-  text-align: center;
-  font-size: 27px;
-}
-.siriAndHomepod img{
-  width: 400px;
-  height: auto;
-  margin-left: 35%;
-  margin-right: 25%;
-}
-/* debut slider
-*/
-.containerSiriAndHomepod{
-	width: 650px;
-	margin: 0 auto;
+
+body{
+    color: black;
 }
 
-.sliderSiriAndHomepod{
-	height: 350px;
-	width:100%;
-	position: relative;
-	overflow: hidden;
-}
-.sliderContainerSiriAndHomepod{
-	position: absolute;
-	display: flex;
-	transition: ease-in .5s all;
-	will-change: left;
+.descriptionParallax{
+  margin-top: 55%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.sliderContainer img{
-	margin: 0 10px;
+.homepodFonctions p{
+font-size: 15px;
 }
 
-.previous{
-  position: absolute;
-  top: 50%;
-  left: 20px;
-  background: white;
-  color: green;
-  padding: 10px;
-  border-radius: 50%;
-  text-decoration: none;
+.descriptionParallax img{
+width: 50px;
+height: auto;
 }
 
-.next{
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  background: white;
-  color: green;
-  padding: 10px;
-  border-radius: 50%;
-  text-decoration: none;
+.phraseHomepod1, .phraseHomepod2{
+text-align: center;
+font-size: 35px;
 }
 
-.dots{
-	position: absolute;
-	bottom: 20px;
-	padding: 10px;
-	left:50%;
-	transform: translateX(-50%);
+.phraseHomepod1{
+margin-top: 47%;
+margin-bottom: 10%;
 }
-.dots li{
-	display:inline-block;
+
+.homepodFonctions{
+margin-left: 3%;
+margin-right: 3%;
+margin-bottom: 10%;
 }
-.dots li a{
-	color: white;
-	text-decoration: none;
-	padding: 10px;
-	background: rgba(52, 152, 219,1.0);
-	border-radius: 20%;
+
+.phraseHomepod2{
+font-weight: 400;
+font-style: italic;
+font-size: 25px;
 }
-.dots li a.current{
-	background-color: red;
+
+.adaptationSection{
+margin-top: 15%;
+text-align: center;
 }
-/* fin slider
-*/
-.appleEcosystemPresentation{
-  display: flex;
-  justify-content: space-between;
+
+.adaptation{
+margin-top: 5%;
+font-size: 25px;
 }
-.appleEcosystemPresentation img{
-  height: 350px;
-  width: auto;
-  margin: 15px;
-  border-radius: 15%;
+
+#adaptationEnvironnement{
+font-weight: bold;
+font-size: 30px;
 }
-.appleEcosystemPresentation h2{
-  width: 500px;
-  margin-top: 12%;
-  text-align: center;
+
+#adaptationPiece{
+font-size: 25x;
+width: 80%;
+margin: auto;
 }
-.sliderPart img{
-  width: 300px;
-  height: auto;
-  border-radius: 4%
+
+.descriptionAdaptationClass{
+font-size: 25px;
 }
-.sliderPart p{
-  text-align: center;
+
+.descriptionAdaptationClass div{
+margin-right: 5%;
+margin-left: 5%;
 }
-.sliderPart{
-  margin: 0 auto;
+
+.descriptionAdaptationClass div p:nth-child(1){
+margin-top: 5%;
+font-weight: bold;
 }
-.sliderEcosystem{
-  width: 580px;
-  height: 200px;
-  position: relative;
-  overflow: hidden;
+
+#titreSectionMusic{
+font-weight: bold;
+margin-top: 7%;
+font-size: 30px;
+text-align: center;
 }
-.slider{
-  position: absolute;
-  display: flex;
-  transition: ease-in .5s all;
-  will-change: left;
+
+.imgMusic img{
+width: 700px;
+height: auto;
 }
-.slider img{
-  margin: 0 10px;
+
+.imgMusic{
+display: flex;
+justify-content: center;
 }
-.previous{
-  position: absolute;
-  top: 50%;
-  left: 20px;
-  background: white;
-  color: green;
-  padding: 10px;
-  border-radius: 50%;
-  text-decoration: none;
+
+.descriptionMusic{
+text-align: center;
+font-size: 25px;
+width: 90%;
+margin: auto;
 }
-.next{
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  background: white;
-  color: green;
-  padding: 10px;
-  border-radius: 50%;
-  text-decoration: none;
+
+.appleMusic p{
+font-size: 25px;
+text-align: center;
+
 }
-.dots{
-	position: absolute;
-	bottom: 20px;
-	padding: 10px;
-	left:50%;
-	transform: translateX(-50%);
+
+.logoAppleMusic img{
+height: 300px;
+width: auto;
 }
-.dots li{
-	display:inline-block;
+
+.logoAppleMusic{
+display: flex;
+justify-content: center;
 }
-.dots li a{
-	color: white;
-	text-decoration: none;
-	padding: 10px;
-	background: rgba(52, 152, 219,1.0);
-	border-radius: 20%;
+
+#imgApps{
+display: flex;
+justify-content: center;
 }
-.dots li a.current{
-	background-color: red;
+
+.siriSection{
+margin-top: 5%;
+font-size: 25px;
+text-align: center;
+width: 90%;
+margin: auto;
 }
-.sliderEcosystem img{
-  width: 550px;
-  height: auto;
-  border-radius: 5%;
+
+#titreSiri{
+font-weight: bold;
+font-size: 27px;
+margin-top: 6%;
 }
+
+
+.siriLogo{
+display: flex;
+justify-content: center;
+}
+
+
+.siriLogo img{
+margin-top: 4%;
+height: 350px;
+width: auto;
+margin-bottom: 10%;
+}
+
+.textEcosystem p{
+font-size: 28px;
+width: 80%;
+text-align: center;
+margin-top: 40%;
+margin-left: 5%;
+font-weight: bold;
+}
+
+.videoEcosystem{
+margin-top: 5%;
+}
+
+.buySection{
+margin-top: 8%;
+}
+
+.titleBuySection{
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+width: 80%;
+margin: auto;
+margin-top: 25%;
+}
+
+.buySection img{
+width: 100%;
+}
+
+#parallaxBackground::before{
+background-image: url(../images/homepod2.jpg);
+}
+.buySection p{
+margin-bottom: 25%;
+font-size: 36px;
+color: black;
+}
+
+.titleBuyHomepod{
+margin-top: 65%;
+font-size: 28px;
+font-weight: auto;
+text-align: center;
+margin-bottom: 5%;
+}
+.titleBuyHomepod a{
+text-decoration: none;
+}
+
 .buyHomepod{
-  text-align: center;
-  background-color: #e5f442;
+margin-top: 5%;
+display: flex;
+justify-content: center;
 }
 .buyHomepod img{
-  border-radius: 5%;
+height: 300px;
+width: auto;
+margin-bottom: 10%;
 }
-.moreThings{
-  display: flex;
-  margin: 45px;
+
+.informations{
+display: flex;
+justify-content: space-around;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 10%;
+margin-top: 10%;
 }
-.moreThings img{
-  height: 150px;
-  width: auto;
+
+.informations div{
+width: 20%;
 }
-.paymentServices{
-  margin-top: 90px;
-  display: flex;
-  background-color: #eff1f4;
+.informations div a{
+text-decoration: none;
+font-style: italic;
+color: black;
 }
-/*Autre document*/
-.pricing-tables,.information{
-   max-width: 980px;
-   margin: 20px auto;
-}
-.pricing-tables{
-   margin-bottom: 3.125em;
-   text-align: center;
-}
-.pricing-table{
-    border: 1px solid #ddd;
-    margin: 0 0.5em 2em;
-    padding: 0 0 3em;
-    margin-bottom: 0;
-}
-.pricing-table-free .pricing-table-header{
-    background: #000000;
-}
-.pricing-table-header{
-    background: #111;
-    color: #fff;
-}
-.pricing-table-header h2{
-    margin: 0;
-    padding-top: 2em;
-    font-size: 1em;
-    font-weight: normal;
-}
-.pricing-table-price{
-    font-size: 6em;
-    margin: 0.2em 0 0;
-    font-weight: 100;
-}
-.pricing-table-price span{
-    display: block;
-    text-transform: uppercase;
-    font-size: 0.2em;
-    padding-bottom: 2em;
-    font-weight: 400;
-    color: #fff;
-}
-.pricing-table-list{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.pricing-table-list li{
-    padding: 0.8em 0;
-    background: #f7f7f7;
-    border-bottom: 1px solid #e7e7e7;
-}
-.button-choose{
-    background: #42a1ec;
-    color: #ffffff;
-    border-radius: 2em;
-    font-weight: bold;
-    position: relative;
-    bottom: -1.5em;
-}
-.pure-u-23-24{
-  width: 50.0%;
-}
-.information-head{
-    color: black;
-    font-weight: 500;
-    margin-top: 0;
-}
-.coord{
-  margin: 10px;
-}
-.conditions{
-  text-decoration: none;
-  color: black;
-}
-.coord button{
-  background: #42a1ec;
-}
-.form-container{
-  width: 760px;
-  margin: 0 auto;
-}
-.pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
-    background-color: #0078e7;
-    color: #ffffff;
-    margin: 10px;
-}
-input[type=checkbox]{
-  margin-right: 5px;
-}
+
+
+
+
+
 /* Footer */
 .footer_container{
   margin: 0 auto;
