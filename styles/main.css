@@ -507,7 +507,7 @@ color: black;
 /* finAchat.html*/
 
 
-//Siri html
+//Siri
 
 *{
     box-sizing: border-box;
@@ -662,7 +662,11 @@ input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3,
 input#img-4:checked ~ .nav-dots label#img-dot-4,
 input#img-5:checked ~ .nav-dots label#img-dot-5,
-input#img-6:checked ~ .nav-dots label#img-dot-6 {
+input#img-6:checked ~ .nav-dots label#img-dot-6
+input#img-7:checked ~ .nav-dots label#img-dot-7
+input#img-8:checked ~ .nav-dots label#img-dot-8
+input#img-9:checked ~ .nav-dots label#img-dot-9
+ {
 	background: rgba(0, 0, 0, 0.8);
 }
 
@@ -708,7 +712,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 .videoSiri{
     margin-top: 2%;
-    margin-bottom: 3%;
+    
 }
 
 
