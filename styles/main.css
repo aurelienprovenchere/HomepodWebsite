@@ -353,11 +353,11 @@ justify-content: center;
   display: flex;
   background-color: #eff1f4;
 }
-// fin index.html
+/* fin index.html /*
 
 
 
-/*Autre document*/
+/*Achat.html*/
 .pricing-tables,.information{
    max-width: 980px;
    margin: 20px auto;
@@ -447,13 +447,13 @@ text-decoration: none;
 font-style: italic;
 color: black;
 }
+/*Achat.html*/
 
 
+/* Siri html /*
 
-// Siri html
 
-
-// fin siri.html
+/* fin siri.html /*
 
 
 
