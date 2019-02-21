@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/main.css">
   </head>
-  <body>
+  <body id="bodyId">
     <header>
       <div class="header_container">
         <div class="header_left">
@@ -28,12 +28,191 @@
         </div>
       </div>
     </header>
-    <main>
-      
+    
+
+      <main class="main">
+        <section> <!-- section 1 : -->
+            <div class="pure-g">
+                <div class="pure-u-5-5 pure-img">
+                    <img src="images/homepod_background.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section> <!-- section 2 : phrases d'accroche de Siri -->
+            <div class="pure-g phrasesSiri">
+                <div class="pure-u-5-5 boldTitre">
+                    <p>Toujours là pour vous, au bon moment.</p>
+                </div>
+                <div class="pure-u-5-5 boldTitre">
+                    <p>Avec Siri, restez connecté sans le moindre effort</p>
+                </div>
+                <div class="pure-u-5-5" id="tachesQuotidien">
+                    <p>Tâches du quotidien</p>
+                    <p>Programmer des alarmes, des minuteurs et des rappels. Obtenir un itinéraire. Afficher le calendrier. Siri s’en charge, ans que vous n’ayez à toucher votre appareil. Et en se basant sur vos habitudes, Siri est même capable d’anticiper vos besoins. La journée va vous sembler plus légère.</p>
+                </div>
 
 
-      
+
+
+
+                <ul class="slides">
+                    <input type="radio" name="radio-btn" id="img-1" checked />
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="images\icons\car.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-9" class="prev">&#x2039;</label>
+                            <label for="img-2" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <input type="radio" name="radio-btn" id="img-2" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="images\icons\ingredients.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-1" class="prev">&#x2039;</label>
+                            <label for="img-3" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <input type="radio" name="radio-btn" id="img-3" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="images\icons\localisation.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-2" class="prev">&#x2039;</label>
+                            <label for="img-4" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <input type="radio" name="radio-btn" id="img-4" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="images\icons\news.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-3" class="prev">&#x2039;</label>
+                            <label for="img-5" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <input type="radio" name="radio-btn" id="img-5" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="images\icons\place.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-4" class="prev">&#x2039;</label>
+                            <label for="img-6" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+                
+                    <input type="radio" name="radio-btn" id="img-6" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="images\icons\question.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-5" class="prev">&#x2039;</label>
+                            <label for="img-7" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-7" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="images\icons\sport.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-6" class="prev">&#x2039;</label>
+                            <label for="img-8" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-8" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="images\icons\translate.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-7" class="prev">&#x2039;</label>
+                            <label for="img-9" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-9" />
+                    <li class="slide-container">
+                        <div class="slide">
+                          <img src="images\icons\weather.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-8" class="prev">&#x2039;</label>
+                            <label for="img-1" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+
+                    
+                
+                    <li class="nav-dots">
+                      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                      <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                      <label for="img-7" class="nav-dot" id="img-dot-7"></label>
+                      <label for="img-8" class="nav-dot" id="img-dot-8"></label>
+                      <label for="img-9" class="nav-dot" id="img-dot-9"></label>
+                    </li>
+                </ul>
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </section>
+        <section> <!-- section 3 : description-->
+            <div class="pure-g">
+                <div class="pure-u-5-5 txtSiriVersions">
+                    Siri n'a cessé d'évoluer au fil des années pour vous proposer la meilleure expérience possible.
+                </div>
+                <div class="pure-u-5-5 pure-img" id="imgSiriVersions">
+                    <img src="images\siri_evolution.jpg"  alt="différentes version de Siri">
+                </div>
+                <div class="pure-g infosSiri">
+                    <div class="pure-u-1-2">
+                        <p>En en rien de temps, vous pouvez accéder au savoir.</p>
+                        <p>Il vous permet d'avoir accès à la météo, aux recettes de cuisines, aux informations de circulation et pleins d'autres données</p>
+                    </div>
+                    <div class="pure-u-1-2">
+                        <p>Siri répond à toutes vos questions.</p>
+                        <p>Posez n'importe quelle question et Siri vous répondra. Un calcul de maths ? Une conversion ? Demandez et vous verez.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section> <!-- section 4 : video siri-->
+            <div class="pure-g">
+                <div class="pure-u-5-5 videoSiri">
+                    <video width="100%" height="auto" controls>
+                        <source src="images\video_siri.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
     </main>
+    <script src="scripts/main.js"></script>    
+    
     <footer>
       <div class="footer_container">
         <div class="pure-menu">

@@ -1,18 +1,26 @@
-const pictures 		  = document.querySelectorAll(".sliderContainerSiriAndHomepod img")
-const sliderContainer = document.querySelector(".sliderContainerSiriAndHomepod")
+// SLIDER
+
+const pictures 		  = document.querySelectorAll(".sliderContainer img")
+const sliderContainer = document.querySelector(".sliderContainer")
 const previousButton  = document.querySelector(".previous")
 const nextButton 	  = document.querySelector(".next")
 const dots			  = document.querySelectorAll("ul.dots li")
 
 let time = 3000,
-	step = -650,
+	step = -600,
 	currentPicture = 0,
 	slide
 
 function slideInterval(){
 	slide = setInterval(() =>{
 		currentPicture = (currentPicture + 1) % pictures.length
-		display(currentPicture)
+
+		// currentPicture++
+		// if(currentPicture >= pictures.length){
+		// 	currentPicture = 0
+		// }
+
+		sliderContainer.style.left = currentPicture * step + "px"
 	}, time)
 }
 
@@ -31,7 +39,7 @@ previousButton.addEventListener("click", (e) => {
 	if(currentPicture < 0){
 		currentPicture = pictures.length - 1
 	}
-	display(currentPicture)
+	sliderContainer.style.left = currentPicture * step + "px"
 })
 
 nextButton.addEventListener("click", (e) => {
@@ -40,20 +48,13 @@ nextButton.addEventListener("click", (e) => {
 	if(currentPicture >= pictures.length){
 		currentPicture = 0
 	}
-	display(currentPicture)
+	sliderContainer.style.left = currentPicture * step + "px"
 })
 
-function display (currentPos){
-	sliderContainer.style.left = currentPos * step + "px"
-  document.querySelector('a.current').classList.remove('current')
-	dots[currentPos].querySelector('a').classList.add('current')
-}
 for(let i = 0; i < dots.length; i++){
 	dots[i].querySelector("a").addEventListener("click", (e) => {
 		e.preventDefault()
-		this.setAttribute('data-test','test')
 		currentPicture = i
-		display(currentPicture)
+		sliderContainer.style.left = currentPicture * step + "px"
 	})
-
 }
