@@ -206,13 +206,14 @@ font-size: 30px;
 }
 
 #adaptationPiece{
-font-size: 25px;
+font-size: 22px;
+line-height: 30px;
 width: 70%;
 margin: auto;
 }
 
 .descriptionAdaptationClass{
-font-size: 25px;
+font-size: 21px;
 width: 85%;
 margin: 0 auto;
 }
@@ -226,6 +227,7 @@ margin: 0 auto;
 .descriptionAdaptationClass div p:nth-child(1){
 margin-top: 5%;
 font-weight: bold;
+font-size: 24px;
 }
 
 #titreSectionMusic{
@@ -247,7 +249,7 @@ text-align: center;
 
 .descriptionMusic{
 text-align: center;
-font-size: 25px;
+font-size: 22px;
 width: 35%;
 margin-left: 5%;
 }
@@ -256,11 +258,12 @@ margin-left: 5%;
 }
 
 .appleMusic p{
-font-size: 25px;
+font-size: 22px;
 text-align: center;
 width: 65%;
 margin-left: 16%;
 margin-bottom: 10%;
+margin-top: 8%;
 
 }
 
@@ -290,6 +293,7 @@ margin-top: 6%;
 }
 .siriSection a{
   color: black;
+  font-size: 20px;
 }
 
 
