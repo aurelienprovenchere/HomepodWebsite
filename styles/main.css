@@ -471,7 +471,10 @@ color: black;
     height:100%;
     overflow-x: hidden;
 }
-
+#imgSiriWebpage{
+  width: 100%;
+  height: auto;
+}
 
 
 .phrasesSiri{
