@@ -391,10 +391,22 @@ justify-content: center;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* fin index.html /*
+/* fin index.html */
 
-
-
+.text-up{
+  font-size: 22px;
+}
+.send-container{
+  width: 100vw;
+  height: 274px;
+}
+.l-box-2{
+  margin: 0 auto;
+}
+.center{
+  text-align: center;
+  margin-top: 100px;
+}
 /*Achat.html*/
 .pricing-tables,.information{
    max-width: 980px;
