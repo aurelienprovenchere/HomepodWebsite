@@ -17,7 +17,7 @@ html{
 body{
   margin: 0;
 	padding: 0;
-  font-size: 14px;
+  font-size: 14px; 
   perspective:1px;
   transform-style: preserve-3d;
   height: 100%;
@@ -471,7 +471,10 @@ color: black;
     height:100%;
     overflow-x: hidden;
 }
-
+#imgSiriWebpage{
+  width: 100%;
+  height: auto;
+}
 
 
 .phrasesSiri{
