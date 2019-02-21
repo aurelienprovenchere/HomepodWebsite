@@ -163,7 +163,7 @@ text-align: center;
 font-size: 35px;
 }
 
-.margin--{
+.margin{
   margin-bottom: -40%;
 }
 
@@ -179,9 +179,12 @@ margin-bottom: 10%;
 }
 
 .phraseHomepod2{
-font-weight: 400;
-font-style: italic;
+font-weight: 200;
+font-style: normal;
 font-size: 25px;
+width: 75%;
+margin:auto;
+line-height: 40px;
 }
 
 .adaptationSection{
@@ -206,16 +209,20 @@ font-size: 30px;
 
 #adaptationPiece{
 font-size: 25px;
-width: 80%;
+width: 70%;
 margin: auto;
 }
 
 .descriptionAdaptationClass{
 font-size: 25px;
+width: 85%;
+margin: 0 auto;
 }
 
 .descriptionAdaptationClass div{
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 30px;
 }
 
 .descriptionAdaptationClass div p:nth-child(1){
@@ -243,7 +250,11 @@ text-align: center;
 .descriptionMusic{
 text-align: center;
 font-size: 25px;
-margin: auto;
+width: 35%;
+margin-left: 5%;
+}
+#music_section{
+  margin-bottom: 5%;
 }
 
 .appleMusic p{
