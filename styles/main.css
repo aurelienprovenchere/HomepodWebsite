@@ -188,7 +188,7 @@ font-size: 30px;
 }
 
 #adaptationPiece{
-font-size: 25x;
+font-size: 25px;
 width: 80%;
 margin: auto;
 }
@@ -322,7 +322,7 @@ color: black;
 .titleBuyHomepod{
 margin-top: 65%;
 font-size: 28px;
-font-weight: auto;
+font-weight: bold;
 text-align: center;
 margin-bottom: 5%;
 }
@@ -337,6 +337,8 @@ justify-content: center;
 }
 .buyHomepod img{
   border-radius: 5%;
+  height: 400px;
+  width: auto;
 }
 .moreThings{
   display: flex;
@@ -351,6 +353,10 @@ justify-content: center;
   display: flex;
   background-color: #eff1f4;
 }
+// fin index.html
+
+
+
 /*Autre document*/
 .pricing-tables,.information{
    max-width: 980px;
@@ -429,7 +435,7 @@ display: flex;
 justify-content: space-around;
 margin-left: 5%;
 margin-right: 5%;
-margin-bottom: 10%;
+margin-bottom: 3%;
 margin-top: 10%;
 }
 
@@ -441,6 +447,14 @@ text-decoration: none;
 font-style: italic;
 color: black;
 }
+
+
+
+// Siri html
+
+
+// fin siri.html
+
 
 
 
