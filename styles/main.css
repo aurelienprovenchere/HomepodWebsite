@@ -421,9 +421,13 @@ justify-content: center;
     margin: 0 0.5em 2em;
     padding: 0 0 3em;
     margin-bottom: 0;
+    border-radius: 20px;
 }
 .pricing-table-free .pricing-table-header{
     background: #000000;
+    border-top-right-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+    
 }
 .pricing-table-header{
     background: #111;
