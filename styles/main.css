@@ -415,7 +415,7 @@ justify-content: center;
     background: #f7f7f7;
     border-bottom: 1px solid #e7e7e7;
 }
-pricing-table-list li .online{
+.pricing-table-list li .online{
   background: #42a1ec;
 }
 .button-choose{
@@ -461,7 +461,7 @@ color: black;
 /* finAchat.html*/
 
 
-/* Siri html /*
+//Siri html
 
 *{
     box-sizing: border-box;
