@@ -750,7 +750,22 @@ input#img-9:checked ~ .nav-dots label#img-dot-9
   margin: 0 auto;
 }
 
+#blocType input{
+  border-radius: 25px;
+  background-color: #d7dae0;
+  border-color: #e88;
+}
+.inputForm{
+width: 95%;
+}
 
+#blocType label{
+  cursor: pointer;
+}
+.formCenter{
+  margin: 0 auto;
+  width: 50%;
+}
 
 /* fin Sorry.html  */
 
