@@ -7,7 +7,7 @@
   src: url("../fonts/System San Francisco Display Bold_3.ttf");
 }
 *{
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 html{
@@ -215,8 +215,7 @@ font-size: 25px;
 }
 
 .descriptionAdaptationClass div{
-margin-right: 5%;
-margin-left: 5%;
+  padding: 10px;
 }
 
 .descriptionAdaptationClass div p:nth-child(1){
@@ -231,20 +230,19 @@ font-size: 30px;
 text-align: center;
 }
 
-.imgMusic img{
-width: 700px;
-height: auto;
-}
-
-.imgMusic{
-display: flex;
-justify-content: center;
+.imgMusic img, .logoAppleMusic img{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .descriptionMusic{
 text-align: center;
 font-size: 25px;
-width: 90%;
 margin: auto;
 }
 
@@ -252,16 +250,6 @@ margin: auto;
 font-size: 25px;
 text-align: center;
 
-}
-
-.logoAppleMusic img{
-height: 300px;
-width: auto;
-}
-
-.logoAppleMusic{
-display: flex;
-justify-content: center;
 }
 
 #imgApps{
@@ -692,8 +680,11 @@ footer{
   padding: 30px;
 }
 footer li{
-  font-size: 11px;
+  font-size: 13px;
   list-style: none;
+}
+.pure-menu-link{
+  padding-left: 0;
 }
 footer h3{
   font-size: 12px;
