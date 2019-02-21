@@ -260,7 +260,15 @@ margin-left: 5%;
 .appleMusic p{
 font-size: 25px;
 text-align: center;
+width: 65%;
+margin-left: 16%;
+margin-bottom: 10%;
 
+}
+
+#logoAppleMusic{
+  width: 75%;
+  margin-bottom: 10%;
 }
 
 #imgApps{
@@ -272,14 +280,18 @@ justify-content: center;
 margin-top: 5%;
 font-size: 25px;
 text-align: center;
-width: 90%;
+width: 70%;
 margin: auto;
 }
+
 
 #titreSiri{
 font-weight: bold;
 font-size: 27px;
 margin-top: 6%;
+}
+.siriSection a{
+  color: black;
 }
 
 
@@ -296,11 +308,14 @@ width: auto;
 margin-bottom: 10%;
 }
 
+#imgAppleEcosystem{
+  margin-top: 10%;
+}
 .textEcosystem p{
 font-size: 28px;
 width: 80%;
 text-align: center;
-margin-top: 40%;
+margin-top: 60%;
 margin-left: 5%;
 font-weight: bold;
 }
