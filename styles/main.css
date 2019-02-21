@@ -154,7 +154,11 @@ font-size: 15px;
 .descriptionParallax img{
 width: auto;
 height: 50px;
+margin-left: 25%;
+margin-right: 25%;
 }
+
+
 
 .phraseHomepod1, .phraseHomepod2{
 text-align: center;
@@ -171,9 +175,17 @@ margin-bottom: 10%;
 }
 
 .homepodFonctions{
-margin-left: 3%;
-margin-right: 3%;
+margin-left: 5%;
+margin-right: 5%;
 margin-bottom: 10%;
+}
+
+#homepodFonctionsSiri{
+  margin-left: 33%;
+}
+
+#homepodFonctionsTech{
+  margin-left: 12%;
 }
 
 .phraseHomepod2{
@@ -737,6 +749,9 @@ input#img-9:checked ~ .nav-dots label#img-dot-9
   width: 50%;
   margin: 0 auto;
 }
+
+
+
 /* fin Sorry.html  */
 
 
