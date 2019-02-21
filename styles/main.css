@@ -752,8 +752,7 @@ input#img-9:checked ~ .nav-dots label#img-dot-9
 
 #blocType input{
   border-radius: 25px;
-  background-color: #d7dae0;
-  border-color: #e88;
+  border-color: gray;
 }
 .inputForm{
 width: 95%;
