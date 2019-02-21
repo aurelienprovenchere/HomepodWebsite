@@ -23,6 +23,14 @@ body{
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
+  font-family: SF-Pro-Display;
+}
+.grey{
+  color: black;
+  background: #d6d6d6;
+}
+.padding{
+  padding-top: 0px;
 }
 footer .pure-menu{
   font-size: 0;
@@ -146,13 +154,17 @@ font-size: 15px;
 }
 
 .descriptionParallax img{
-width: 50px;
-height: auto;
+width: auto;
+height: 50px;
 }
 
 .phraseHomepod1, .phraseHomepod2{
 text-align: center;
 font-size: 35px;
+}
+
+.margin--{
+  margin-bottom: -40%;
 }
 
 .phraseHomepod1{
@@ -181,7 +193,12 @@ text-align: center;
 margin-top: 5%;
 font-size: 25px;
 }
-
+#duo_stereo{
+  margin-bottom: 2%;
+}
+#sectionMusic{
+  margin-top: -40px;
+}
 #adaptationEnvironnement{
 font-weight: bold;
 font-size: 30px;
@@ -209,7 +226,7 @@ font-weight: bold;
 
 #titreSectionMusic{
 font-weight: bold;
-margin-top: 7%;
+margin-top: 4%;
 font-size: 30px;
 text-align: center;
 }
@@ -429,7 +446,6 @@ pricing-table-list li .online{
     font-weight: 500;
     margin-top: 0;
 }
-
 .informations{
 display: flex;
 justify-content: space-around;
@@ -438,7 +454,6 @@ margin-right: 5%;
 margin-bottom: 3%;
 margin-top: 10%;
 }
-
 .informations div{
 width: 20%;
 }
@@ -446,6 +461,14 @@ width: 20%;
 text-decoration: none;
 font-style: italic;
 color: black;
+}
+.coord{
+  display: flex;
+  justify-content: space-around;
+}
+.conditions{
+  text-decoration: none;
+  color: #000000;
 }
 /*Achat.html*/
 
